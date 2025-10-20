@@ -35,5 +35,5 @@ Se utilizó el siguiente stack tecnológico para la construcción de esta Landin
 ## ✉️ Contacto
 
 * **Equipo:** Equipo 02
-* **GitHub:** [@TuUsuarioDeGitHub](https://github.com/TuUsuarioDeGitHub)
+
 
