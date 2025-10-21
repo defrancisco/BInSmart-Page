@@ -5,10 +5,9 @@ import Landing from "./pages/Landing";
 import SobreNosotros from "./pages/SobreNosotros";
 import ComoFunciona from "./pages/ComoFunciona";
 import ISO14001 from "./pages/ISO14001";
-import Suscripciones from "./pages/Suscripciones.jsx";
-import "./index.css";
+import Suscripciones from "./pages/Suscripciones";
 
-function App() {
+export default function App() {
   return (
     <Router>
       <div className="app-container">
@@ -27,5 +26,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;

@@ -1,7 +1,9 @@
 export default function Footer() {
   return (
-    <footer>
-      <p>© 2025 BinSmart. Todos los derechos reservados ♻️</p>
+    <footer className="footer">
+      <div className="container">
+        <p>© 2025 BinSmart — Proyecto Académico</p>
+      </div>
     </footer>
   );
 }
