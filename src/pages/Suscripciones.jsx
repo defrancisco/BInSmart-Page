@@ -1,4 +1,5 @@
 import "../styles/main.css";
+import React from "react";
 
 const planesBinsmart = [
   {

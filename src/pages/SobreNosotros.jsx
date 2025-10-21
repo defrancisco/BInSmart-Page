@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function SobreNosotros() {
   return (
     <section className="page container">

@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function ComoFunciona() {
   return (
     <section className="page container">
