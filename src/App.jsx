@@ -1,28 +1,29 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Landing from "./pages/Landing";
-import SobreNosotros from "./pages/SobreNosotros";
-import ComoFunciona from "./pages/ComoFunciona";
-import ISO14001 from "./pages/ISO14001";
-import Suscripciones from "./pages/Suscripciones";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-export default function App() {
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+
+import Landing from "./pages/Landing.jsx";
+import ComoFuncional from "./pages/ComoFunciona.jsx";
+import ISO14001 from "./pages/ISO14001.jsx";
+import SobreNosotros from "./pages/SobreNosotros.jsx";
+import Suscripciones from "./pages/Suscripciones.jsx";
+
+function App() {
   return (
-    <Router>
-      <div className="app-container">
-        <Navbar />
-        <main className="main-content">
-          <Routes>
-            <Route path="/" element={<Landing />} />
-            <Route path="/sobre-nosotros" element={<SobreNosotros />} />
-            <Route path="/como-funciona" element={<ComoFunciona />} />
-            <Route path="/iso14001" element={<ISO14001 />} />
-            <Route path="/suscripciones" element={<Suscripciones />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/comofunciona" element={<ComoFuncional />} />
+        <Route path="/iso14001" element={<ISO14001 />} />
+        <Route path="/sobrenosotros" element={<SobreNosotros />} />
+        <Route path="/suscripciones" element={<Suscripciones />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
+
+export default App;

@@ -19,7 +19,7 @@ export default function Navbar() {
         </div>
 
         <nav className="nav-links">
-          <Link to="/">Inicio</Link>
+          <Link to="/landing">Inicio</Link>
           <Link to="/sobre-nosotros">Sobre Nosotros</Link>
           <Link to="/como-funciona">Cómo Funciona</Link>
           <Link to="/iso14001">ISO 14001</Link>
