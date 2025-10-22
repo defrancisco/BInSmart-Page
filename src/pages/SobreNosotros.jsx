@@ -1,6 +1,6 @@
 import React from "react";
 import { Target, Users, Heart, Award } from "lucide-react";
-import "../styles/main.css";
+import "../styles/SobreNosotros.css";
 
 const values = [
   {

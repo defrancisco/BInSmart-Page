@@ -1,6 +1,6 @@
-import "../styles/main.css";
 import React from "react";
-
+import "../styles/main.css";
+import "../styles/ISO14001.css";
 
 export default function ISO14001() {
   const benefits = [

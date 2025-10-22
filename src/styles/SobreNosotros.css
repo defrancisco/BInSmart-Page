@@ -1,0 +1,117 @@
+.about-container {
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  color: #2d7158;
+}
+
+.about-hero {
+  background: linear-gradient(135deg, #a8d5e2, #d4eef5);
+  text-align: center;
+  padding: 6rem 1.5rem;
+}
+
+.about-hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #2d7158;
+}
+
+.about-hero p {
+  font-size: 1.25rem;
+  color: #374151;
+  line-height: 1.7;
+}
+
+.about-values {
+  background: linear-gradient(to bottom right, #f9fafb, #d4eef580);
+  padding: 6rem 1.5rem;
+  text-align: center;
+}
+
+.about-values h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.value-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(45, 113, 88, 0.08);
+  transition: all 0.2s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(45, 113, 88, 0.15);
+}
+
+.icon-wrapper {
+  width: 60px;
+  height: 60px;
+  background: #d4eef5;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  color: #2d7158;
+}
+
+.value-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.value-card p {
+  color: #374151;
+  line-height: 1.6;
+}
+
+.about-commitment {
+  text-align: center;
+  padding: 6rem 1.5rem;
+  background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-commitment h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-commitment p {
+  color: #374151;
+  font-size: 1.25rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .about-hero p,
+  .about-commitment p {
+    font-size: 1.1rem;
+  }
+}
