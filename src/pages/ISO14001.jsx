@@ -35,7 +35,6 @@ export default function ISO14001() {
 
   return (
     <div className="iso-page">
-      {/* HERO */}
       <section className="iso-hero">
         <span className="iso-badge">Certificación Ambiental</span>
         <h1>ISO 14001 y BinSmart</h1>
@@ -46,7 +45,6 @@ export default function ISO14001() {
         </p>
       </section>
 
-      {/* QUÉ ES ISO */}
       <section className="iso-section">
         <div className="iso-grid">
           <div>
@@ -83,7 +81,6 @@ export default function ISO14001() {
         </div>
       </section>
 
-      {/* MÉTRICAS */}
       <section className="iso-section light">
         <h2>Cómo BinSmart Facilita tu Certificación</h2>
         <p className="iso-sub">
@@ -114,7 +111,6 @@ export default function ISO14001() {
         </div>
       </section>
 
-      {/* CTA */}
       <section className="iso-cta">
         <h2>¿Listo para Certificarte?</h2>
         <p>

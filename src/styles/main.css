@@ -1,9 +1,7 @@
-/* src/styles/main.css - versión simple y visible */
-
 :root{
   --bg: #f5f9fb;
   --card: #ffffff;
-  --accent: #86bac0; /* celeste-grisáceo */
+  --accent: #86bac0;
   --text: #1f2f33;
   --muted: #6b7c80;
 }
@@ -17,21 +15,17 @@ body{
   color:var(--text);
 }
 
-/* layout */
 .app-container{display:flex; flex-direction:column; min-height:100vh}
 .main-content{flex:1; padding:28px 16px}
 
-/* simple container */
 .container{max-width:1100px; margin:0 auto; padding:0 16px}
 
-/* navbar */
 .navbar{background:transparent; padding:14px 0; border-bottom:1px solid rgba(31,47,51,0.04)}
 .nav-inner{display:flex; justify-content:space-between; align-items:center}
 .brand{font-weight:700; color:var(--text); text-decoration:none; font-size:18px}
 .nav-links a{margin-left:14px; text-decoration:none; color:var(--muted); font-weight:600}
 .nav-links a:hover{color:var(--text)}
 
-/* ===== HERO SECTION ===================================================================================== */
 .hero-section {
   position: relative;
   height: 100vh;
@@ -45,7 +39,6 @@ body{
   font-family: "Inter", sans-serif;
 }
 
-/* Fondo con imagen y overlay */
 .hero-background {
   position: absolute;
   inset: 0;
@@ -69,7 +62,6 @@ body{
   );
 }
 
-/* Contenido principal */
 .hero-content {
   position: relative;
   z-index: 2;
@@ -92,7 +84,6 @@ body{
   line-height: 1.6;
 }
 
-/* Botones */
 .hero-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -131,7 +122,6 @@ body{
   color: white;
 }
 
-/* Botón de scroll */
 .scroll-btn {
   position: absolute;
   bottom: 30px;
@@ -163,7 +153,6 @@ body{
   }
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 2.2rem;
@@ -174,15 +163,13 @@ body{
   }
 }
 
-/* footer */
 .footer{background:var(--accent); color:white; padding:14px 0; margin-top:24px; text-align:center}
 
-/* responsive */
 @media (max-width:880px){
   .hero{flex-direction:column; text-align:center}
   .nav-links{display:none}
 }
-/* Secciones internas */
+
 .page {
   padding: 4rem 1rem;
   background-color: #f9fafb;
@@ -194,7 +181,7 @@ body{
 .page-title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #3b82f6; /* celeste tipo logo */
+  color: #3b82f6;
   margin-bottom: 1.5rem;
 }
 
@@ -206,14 +193,12 @@ body{
   color: #374151;
 }
 
-/* ===== SOBRE NOSOTROS ===== */
 .about-container {
   background-color: white;
   font-family: "Inter", sans-serif;
   color: #2d7158;
 }
 
-/* Hero section */
 .about-hero {
   background: linear-gradient(135deg, #a8d5e2, #d4eef5);
   text-align: center;
@@ -237,7 +222,6 @@ body{
   line-height: 1.7;
 }
 
-/* Valores */
 .about-values {
   background: linear-gradient(to bottom right, #f9fafb, #d4eef580);
   padding: 6rem 1.5rem;
@@ -297,7 +281,6 @@ body{
   line-height: 1.6;
 }
 
-/* Compromiso */
 .about-commitment {
   text-align: center;
   padding: 6rem 1.5rem;
@@ -317,7 +300,6 @@ body{
   line-height: 1.7;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .about-hero h1 {
     font-size: 2.2rem;
@@ -330,7 +312,6 @@ body{
 }
 
 
-/* Pasos de “Cómo Funciona” */
 .steps {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -352,14 +333,12 @@ body{
 
 
 
-/* ===== ISO 14001 PAGE ================================================================ */
 .iso-page {
   background: #ffffff;
   color: #1f2937;
   font-family: "Inter", sans-serif;
 }
 
-/* Hero */
 .iso-hero {
   text-align: center;
   padding: 5rem 1rem;
@@ -389,7 +368,6 @@ body{
   line-height: 1.6;
 }
 
-/* Sections */
 .iso-section {
   padding: 4rem 2rem;
   max-width: 1200px;
@@ -401,7 +379,6 @@ body{
   border-top: 1px solid #e5e7eb;
 }
 
-/* Grid */
 .iso-grid {
   display: grid;
   gap: 2rem;
@@ -414,7 +391,6 @@ body{
   }
 }
 
-/* Cards */
 .iso-card {
   background: white;
   border-radius: 1rem;
@@ -438,7 +414,6 @@ body{
   color: #374151;
 }
 
-/* Metrics */
 .iso-metrics {
   display: grid;
   gap: 2rem;
@@ -464,7 +439,6 @@ body{
   margin-bottom: 0.5rem;
 }
 
-/* CTA */
 .iso-cta {
   text-align: center;
   padding: 4rem 1rem;

@@ -7,7 +7,6 @@ export default function Navbar() {
     <header className="navbar">
       <div className="nav-inner container">
         <div className="nav-logo">
-          {/* si no tenés logo.png en src/media, el img no se mostrará pero no tirará error */}
           <img
             src={logo}
             alt="BinSmart"

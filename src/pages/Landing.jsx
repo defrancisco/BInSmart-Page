@@ -11,7 +11,6 @@ export default function Landing() {
 
   return (
     <section className="hero-section">
-      {/* Fondo */}
       <div className="hero-background">
         <img
           src="https://images.unsplash.com/photo-1758547343136-19d27f9cb57f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
@@ -21,7 +20,6 @@ export default function Landing() {
         <div className="hero-overlay"></div>
       </div>
 
-      {/* Contenido */}
       <div className="hero-content">
         <h1>♻️ Escaneá, Reciclá, Ganá</h1>
         <p>
@@ -39,7 +37,6 @@ export default function Landing() {
         </div>
       </div>
 
-      {/* Indicador de scroll */}
       <button className="scroll-btn" onClick={scrollToContent}>
         ⬇️
       </button>

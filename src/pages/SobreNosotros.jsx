@@ -31,7 +31,6 @@ const values = [
 export default function SobreNosotros() {
   return (
     <div className="about-container">
-      {/* Hero */}
       <section className="about-hero">
         <div className="about-hero-content">
           <h1>Sobre BinSmart</h1>
@@ -43,7 +42,6 @@ export default function SobreNosotros() {
         </div>
       </section>
 
-      {/* Valores */}
       <section className="about-values">
         <h2>Nuestros Valores</h2>
         <div className="values-grid">
@@ -59,7 +57,6 @@ export default function SobreNosotros() {
         </div>
       </section>
 
-      {/* Compromiso */}
       <section className="about-commitment">
         <h2>Nuestro Compromiso</h2>
         <p>
