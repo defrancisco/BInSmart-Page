@@ -1,19 +1,48 @@
 import React from "react";
+import "../styles/main.css";
 
 export default function Landing() {
+  const scrollToContent = () => {
+    window.scrollTo({
+      top: window.innerHeight,
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <section className="hero container">
-      <div className="hero-left">
-        <h1>BinSmart ♻️</h1>
-        <p className="subtitle">Reciclar nunca fue tan fácil. Detectamos, guiamos y premiamos el reciclaje.</p>
-        <div className="hero-cta">
-          <a className="btn-primary" href="#membresias">Ver membresías</a>
-          <a className="btn-ghost" href="#iso">ISO 14001</a>
+    <section className="hero-section">
+      {/* Fondo */}
+      <div className="hero-background">
+        <img
+          src="https://images.unsplash.com/photo-1758547343136-19d27f9cb57f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+          alt="Reciclaje"
+          className="hero-image"
+        />
+        <div className="hero-overlay"></div>
+      </div>
+
+      {/* Contenido */}
+      <div className="hero-content">
+        <h1>♻️ Escaneá, Reciclá, Ganá</h1>
+        <p>
+          Transformá tus residuos en recompensas. Cada acción cuenta para un
+          futuro más sustentable.
+        </p>
+
+        <div className="hero-buttons">
+          <button className="btn-primary">
+            📱 Descargar App
+          </button>
+          <button className="btn-outline">
+            Conocer más
+          </button>
         </div>
       </div>
-      <div className="hero-visual">
-        <div className="card-visual">Tablet ● Cámara ● IA</div>
-      </div>
+
+      {/* Indicador de scroll */}
+      <button className="scroll-btn" onClick={scrollToContent}>
+        ⬇️
+      </button>
     </section>
   );
 }

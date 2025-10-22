@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// intenta importar logo desde src/media/logo.png
 import React from "react";
 import logo from "../media/logo.png";
 
